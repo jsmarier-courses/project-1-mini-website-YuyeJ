@@ -4,7 +4,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     color: #3d3d3d;
     font-weight:normal;
-    background: linear-gradient(-45deg, #40546fe9, #355484e8);
+    background: linear-gradient(-45deg, #4c71a1e9, #49638de8);
 }
 
 body {
@@ -86,7 +86,7 @@ body {
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
-    width: 800px;
+    width: 900px;
 }
 
 .footer {
@@ -112,9 +112,37 @@ body {
 h1 {
     color: rgb(194, 126, 0);
     font-family: Georgia;
+    text-align: center;
+    
+    
 }
 
 h3 {
     color: rgb(194, 126, 0);
     font-family: Georgia;
+    text-shadow: 1px 1px;
 }
+
+h2{
+    text-align: center;
+    font-family: Georgia;
+}
+
+p {
+    text-indent: 50px;
+  }
+
+  p.one {
+    word-spacing: 0.5px;
+    color:rgb(71, 46, 0)
+  }
+
+  p.double {outline-style: double;}
+  p.solid {
+    outline-style: solid;
+}
+
+.p3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
