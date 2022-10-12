@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #3d3d3d;
+    font-weight:normal;
+    background: linear-gradient(-45deg, #40546fe9, #355484e8);
+}
+
+body {
+    background-color: rgba(253, 251, 251, 0.959);
+}
+
+.top-bar {
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+   font-size: 30px;
+   position: absolute;
+   padding: 0px 0px 0px 20px;
+   z-index: 3;
+   color: #f3f3f3;
+   font-weight: normal;
+   opacity: 0.7;
+}
+
+.top-menu {
+   background-color: #357ab8;
+   position: absolute;
+   top: 90px;
+   z-index: 2;
+   width: 100%;
+}
+
+.top-menu ul {
+    list-style-type: none;
+    font-size: 20px; 
+    float: right;
+    margin-right: 20px;
+    font-family: Georgia;
+}
+
+.top-menu li {
+    display: inline-block;
+    font-family: Georgia;
+}
+
+.top-menu li a:link, .top-menu li a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20.5px 20px;
+    font-family: Georgia;
+}
+
+.top-menu li a:hover {
+    background-color: rgb(255, 179, 2);
+}
+
+.current-page-link {
+    background-color: rgb(255, 179, 2);
+}
+
+.page-content {
+    position: relative;
+    top: 145px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    z-index: 1;
+}
+
+.main-section {
+    padding: 10px 20px 10px 20px;
+}
+
+.main-section h1, .main-section h2 {
+    color: black;
+}
+
+.main-section figure, .main-section img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+.footer {
+    position: relative;
+    top: 140px;
+    z-index: 3;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#357ab8;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: white;
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(194, 126, 0);
+    font-family: Georgia;
+}
+
+h3 {
+    color: rgb(194, 126, 0);
+    font-family: Georgia;
+}
